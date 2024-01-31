@@ -1,0 +1,37 @@
+Difference between Document and Window Objects:
+
+Document Object:
+       The Document object represents the HTML document loaded in the browser. It serves as the entry point to the content of a webpage, allowing the users to manipulate and interact with the data in it. 
+
+1. Hierarchy and Structure:
+   - The Document object represents the entire HTML document, forming a hierarchical structure that includes elements like head, body, and their respective child elements.
+   - Developers can access and manipulate individual elements using methods like getElementById.
+
+2. Content Manipulation:
+   - Document object enables content manipulation, allowing developers to dynamically create, modify, or delete elements within the document.
+   - Methods like createElement, appendChild, and innerHTML facilitate the manipulation of document content.
+
+3. CSS and Styling:
+   - Developers can access and modify CSS styles associated with elements through the Document object using properties like style or classList.
+   - CSS classes and styles can be added or removed dynamically.
+                                  
+_____________________________________________________________________________________________________________________________
+
+Window Object:
+
+The Window object, represents the browser window or tab containing the Document object. It acts as a global object and provides a platform for various functionalities related to the browser environment. Key characteristics of the Window object include:
+
+1. Global Scope:
+   - The Window object is global, meaning that variables and functions declared without a specific scope become properties and methods of the Window object.
+   - It serves as the global context for JavaScript code running in a browser.
+
+2. Browser Information:
+   - The Window object provides information about the browser environment, including properties like innerWidth, innerHeight, and location.
+   - Methods like alert and confirm are also part of the Window object, offering interaction with users.
+
+3. Timers and Events:
+   - Functions like setTimeout and setInterval for scheduling code execution are part of the Window object.
+   - Event handling, such as addEventListener, is used to capture and respond to user interactions within the browser.
+_____________________________________________________________________________________________________________________________
+
+In simple words, the Document object represents the content and structure of an HTML document whereas the Window object is the browser environment and provides functionalities beyond the document.
